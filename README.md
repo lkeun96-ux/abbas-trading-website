@@ -93,7 +93,8 @@ JSON-LD 구조화 데이터(AutoPartsStore), `robots.txt`, `sitemap.xml`, 파비
   사이트에는 넣지 않았습니다. 사이트 연락처는 `alrbyaea@gmail.com` / `010-8969-1998` 입니다.
 
 ## GitHub
-비공개 저장소: https://github.com/hyerim-tnear/abbas-trading-website
+비공개 저장소: https://github.com/lkeun96-ux/abbas-trading-website
+소유 계정: `lkeun96-ux` (2026-09-08 이전 완료)
 
 수정 후 반영 (main 직접 push 금지 — PR 필수):
 ```
