@@ -91,3 +91,29 @@ JSON-LD 구조화 데이터(AutoPartsStore), `robots.txt`, `sitemap.xml`, 파비
   사업자등록번호·대표자명 표기 의무가 생깁니다. 현재처럼 문의·견적 방식이면 해당되지 않습니다.
 - 등록증의 `Lkeun2@naver.com` / `010-2925-2852` / `070-7514-0706`은 전자세금계산서 전용 연락처라
   사이트에는 넣지 않았습니다. 사이트 연락처는 `alrbyaea@gmail.com` / `010-8969-1998` 입니다.
+
+## GitHub
+비공개 저장소: https://github.com/hyerim-tnear/abbas-trading-website
+
+수정 후 반영 (main 직접 push 금지 — PR 필수):
+```
+git checkout -b dev/feat/수정내용
+git add -A && git commit -m "수정 내용"
+git push -u origin dev/feat/수정내용
+gh pr create --base main --fill && gh pr merge --squash --delete-branch
+```
+
+**GitHub Pages로 무료 호스팅하려면** 저장소를 Public으로 바꿔야 합니다
+(무료 계정은 Private 저장소에서 Pages 사용 불가).
+Settings → General → Danger Zone → Change visibility → Public,
+그 다음 Settings → Pages → Source를 `main` 브랜치 루트로 지정.
+커스텀 도메인 칸에 도메인을 넣으면 `CNAME` 파일이 자동 생성됩니다.
+
+## 카카오톡 공유 썸네일
+`images/og-image.jpg` (1200×630) 가 카톡·페북·링크드인 미리보기에 뜹니다.
+- `og-image-square.jpg` — 정사각 크롭 대비 예비본
+- `og-image-photo.jpg` — 차량 사진 버전 (원하시면 `og-image.jpg` 로 덮어쓰기)
+
+⚠️ **카카오는 미리보기를 캐시합니다.** 도메인 연결 후 썸네일이 안 뜨거나 예전 것이 뜨면
+[카카오 캐시 초기화](https://developers.kakao.com/tool/clear/og) 에서 URL을 넣고 초기화한 뒤
+다시 공유하세요. 썸네일이 뜨려면 사이트가 **HTTPS로 외부에서 접속 가능**해야 합니다.
